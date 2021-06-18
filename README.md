@@ -2,7 +2,7 @@
 A faster mechanism for dynamic access to Arduino PINs
 
 
-A class to front then the high speed Pin IO template class written by Mikael Patel.
+A class to front end the high speed Pin IO template class written by Mikael Patel.
 
 See: https://github.com/mikaelpatel/Arduino-GPIO
 
