@@ -211,7 +211,7 @@ public:
 	}
 	
 	inline void toggle( void ) {
-		FPIO_ATOMIC( _port_adrs, _port_adrs->port ^= _bit_set );
+		FPIO_ATOMIC( _port_adrs, _port_adrs->pin |= _bit_set );
 	}
 	
 	inline byte pin( void ) {
